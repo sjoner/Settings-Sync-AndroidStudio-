@@ -1,0 +1,8 @@
+<templateSet group="docGroup">
+  <template name="cmt" value="/**&#10; * Created by linmq on $DATE$&#10; */" description="add comment" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
